@@ -1,0 +1,266 @@
+/* 
+画面のスタイルシート
+*/
+
+body {
+    font-family: "Noto Sans JP", "sans-serif";
+    margin: 0;
+    min-width: 1440px;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+[header]のスタイルシート
+*/
+
+.block-header {
+    display: flex;
+    border-bottom: solid 3px #E04444;
+}
+
+.home-link {
+    margin: 5px 20px;
+    text-align: center;
+}
+
+.home-link a {
+    display: block;
+    text-align: center;
+}
+
+.home-link img {
+    width: 41px;
+    height: 41px;   
+}
+
+.about-link {
+    margin: 15px 20px;
+    text-align: center;
+}
+
+.about-link a {
+    display: block;
+    text-align: center;
+    margin-top: 9px;
+    padding-bottom: 10px;
+}
+
+.about-link img {
+    width: 25px;
+    height: 22px; 
+}
+
+.projects-link {
+    margin: 15px 20px;
+    text-align: center;
+}
+
+.projects-link a {
+    display: block;
+}
+
+.projects-link img {
+    width: 33px;
+    height: 31px; 
+}
+
+/* [Profile]のスタイルシート */
+.box-profile {
+    display: flex;
+}
+
+.box-profile .sub-title {
+    margin: 20px auto auto 100px;
+}
+
+.box-profile h1 {
+    font-weight: 500;
+    font-size: 120px;
+    margin-bottom: 0;
+}
+
+.box-profile p {
+    margin-top: 0;
+    margin-bottom: 0;
+   color: #E04444;
+   font-size: 43px;
+}
+
+.box-profile img {
+    display: flex;
+    width: 750px;
+    height: auto;
+}
+
+/* [About]のスタイルシート */
+.box-about {
+    text-align: center;
+    background-color: #E04343;
+    color: #F8F5F5;
+    height: 680px;
+    padding-top: 20px;
+}
+
+.box-about h3 {
+    font-size: 35px;
+    margin-bottom: 110px;
+    letter-spacing: 5px;
+    font-weight: 100;
+    margin: 50px 0;
+}
+
+.box-about p {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.box-about img {
+    margin:auto 10px;
+}
+
+/* [Projects]のスタイルシート */
+.box-projects {
+    text-align: center;
+}
+
+.box-projects h3:first-child {
+    color: #E04343;
+    margin: 90px auto 150px auto;
+}
+
+.box-projects h3 {
+    display: block;
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+.projects-list {
+    list-style: none;
+    display: flex;
+    margin-top: 110px;
+    margin-left: 190px;
+}
+
+.twitter-list {
+    margin-right: 100px;
+}
+
+.NETFLIX-list {
+    margin-left: 100px;
+}
+
+.twitter-list img {
+    border: 1px solid #E04343;
+    padding: 20px 40px;
+    width: 300px;
+}
+
+.NETFLIX-list img {
+    border: 1px solid #E04343;
+    padding: 20px 40px;
+    width: 300px;
+}
+
+.projects-list p {
+    color: #555353;
+    font-size: 15px;
+}
+
+.box-projects li .link {
+    margin-top: 30px;
+} 
+
+.twitter-list .link a {
+    background-color: #E04343;
+    color: #FFFFFF;
+    padding: 12px;
+    margin: auto 9px;
+    text-decoration: none;
+}
+
+.NETFLIX-list .link a {
+    background-color: #E04343;
+    color: #FFFFFF;
+    padding: 12px;
+    margin: auto 9px;
+    text-decoration: none;
+}
+
+/* 
+[Contact]のスタイルシート
+*/
+.box-contact h3 {
+   text-align: center;
+   margin: 85px auto;
+}
+
+.contact-area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 125px;
+}
+
+.PHONE-list {
+    text-align: center;
+    margin-right: 80px;
+    background-color: #E9EFEF;
+    width: 300px;
+    height: 200px;
+    border-bottom: 4px solid #E04343;
+    letter-spacing: 0.1em;
+}
+
+.PHONE-list img {
+    width: 45px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.PHONE-list :last-child {
+    margin-top: 37px;
+}
+
+.EMAIL-list {
+    text-align: center;
+    margin-left: 80px;
+    background-color: #E9EFEF;
+    width: 300px;
+    height: 200px;
+    border-bottom: 4px solid #E04343;
+    letter-spacing: 0.1em;
+}
+
+.EMAIL-list img {
+    width: 45px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.EMAIL-list p:last-child {
+    color: #E04343;
+    margin-top: 37px;
+}
+
+
+/*
+[footer]のスタイルシート
+*/
+.block-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    background-color: #E9EFEF;
+    height: 80px;
+}
+
+.block-footer p{
+    color: #938F8F;
+    font-size: 14px;
+}
+
+
